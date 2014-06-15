@@ -1,0 +1,17 @@
+﻿{
+    "dependencies": {
+        "Microsoft.Framework.Runtime": "0.1-alpha-*"
+    },
+
+    "configurations" : {
+        "net45" : { 
+            "dependencies": {
+                "ScriptCs.Hosting": "0.10.0-alpha-140612",
+                "ScriptCs.Core": "0.10.0-alpha-140612",
+                "ScriptCs.Contracts": "0.10.0-alpha-140612",
+                "ScriptCs.Engine.Roslyn": "0.10.0-alpha-140612",
+                "ScriptCs.Engine.Mono":  "0.10.0-alpha-140612"
+            }
+        }
+    }
+}

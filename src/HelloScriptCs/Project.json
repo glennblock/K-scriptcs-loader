@@ -1,0 +1,18 @@
+﻿{
+    "dependencies": {
+        "ScriptCsLoader": ""
+    },
+    "loader": {
+        "name": "ScriptCsLoader",
+        "type": "ScriptCsLoader.AssemblyLoader"
+    },
+    "configurations" : {
+        "net45" : { },
+        "k10" : { 
+            "dependencies": {
+                "System.Console": "4.0.0.0"
+            }
+        }
+
+    }
+}
